@@ -1,0 +1,33 @@
+
+[dir="rtl"] .link-social a{
+  margin-left: 36px;
+}
+[dir="ltr"] .link-social a{
+  margin-right: 36px;
+}
+[dir="ltr"] .col-services{
+  margin-right: 2%;
+}
+[dir="rtl"] .col-services{
+  margin-left: 2%;
+}
+[dir="ltr"] .button-form{
+  text-align: right;
+}
+[dir="rtl"] .button-form{
+  text-align: left;
+}
+@media (min-width: 992px){
+[dir="ltr"] .col-form{
+  margin-right: 7%;
+}
+[dir="rtl"] .col-form{
+  margin-left: 7%;
+}
+}
+[dir="rtl"] #img-first-1{
+  border-radius: 0px 60px 60px 0px;
+  }
+  [dir="rtl"] #img-first-2{
+    border-radius: 60px 0px 0px 60px;
+  }
